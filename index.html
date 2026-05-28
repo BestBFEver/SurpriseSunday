@@ -16,7 +16,8 @@
     body {
       font-family: 'Poppins', sans-serif;
       min-height: 100vh;
-      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: auto;
       background: linear-gradient(135deg, #3b0a14, #7a1028, #1f0b12);
       color: white;
       display: flex;
@@ -40,6 +41,7 @@
       animation: float 12s linear infinite;
       font-size: 20px;
     }
+    
 
     @keyframes float {
       0% {
@@ -60,6 +62,7 @@
       z-index: 2;
       width: 92%;
       max-width: 420px;
+      margin: 20px auto;
       background: rgba(255,255,255,0.08);
       backdrop-filter: blur(18px);
       border: 1px solid rgba(255,255,255,0.15);
